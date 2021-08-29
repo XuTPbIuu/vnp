@@ -1,0 +1,41 @@
+{
+  "ovpn_file":[
+    {"id":0,"file":"client"
+dev tun
+proto udp
+sndbuf 0
+rcvbuf 0
+remote 89.223.71.11 1194
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+remote-cert-tls server
+auth SHA512
+cipher AES-256-CBC
+setenv opt block-outside-dns
+key-direction 1
+verb 3
+<ca>
+-----BEGIN CERTIFICATE-----
+MIIDTjCCAjagAwIBAgIQX39oO9fBu9QrNhXeCvOhzjANBgkqhkiG9w0BAQsFADAT
+MREwDwYDVQQDDAhDaGFuZ2VNZTAeFw0yMTA4MjkwNjU3MTJaFw0zMTA4MjcwNjU3
+MTJaMBExDzANBgNVBAMMBmNsaWVudDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAMRiHXBFS5hLuuH1lMblMvpdivv6DoI6fa7iHAlprB36fllm/DLF1BF7
+4xGJTPSfjeE9uWnGCWQl/VvO+Bfc40CPqm8b/WZ6AEK5dffMTD6sFMW5NeRXc/yG
+zCTx7VkPrKopmGlRJ31uw3HKlRR38QGJE0S3JGhY63otwGEC3zTZ9fEqtWelAF7U
+BMrs1coWTnhuNr+Fgva4BuzwVdxAoxBj2hA7Bv5WwLot4CvlURcug/fLv1w2em3E
+Dwyo5uluVSJczGuHhpH81w3ovuR4rhkpr52TDdSlaTi8LSGhyx1cGu+q7BtIwo1I
+4Y7wuR6KHQAbBiaFO7Bi/l3waBxCwfcCAwEAAaOBnzCBnDAJBgNVHRMEAjAAMB0G
+A1UdDgQWBBRANmQ7ALmOlBJyw44pXVoOizrj2DBOBgNVHSMERzBFgBRFsXc7qpBn
+6/wAgpnygbjC+ONZ9KEXpBUwEzERMA8GA1UEAwwIQ2hhbmdlTWWCFFRD7i+VRhST
+zD+/zjxqAWy5OOZ/MBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDAN
+BgkqhkiG9w0BAQsFAAOCAQEABIPKLtbMTLSr4hBqYL5GyGDHPHJibfXxGzVacI8x
+nMHjSZVE2O9AjFxB9EZKsvz40q1ioBfELUJcmks91o6nniqFBHf4mGjxJyeqXk1j
+aG8tgC5up1vGyD2HCUI2ZFQ5aew+udUA1RtysYKOWhfshzVhESQdBYjFfRzv0P5o
+7bhTKetYv9Na9npfA0az3vNS9gULnkbI9HlcKYuh6VdxV1J9ohBQNm1szV3QTjen
+J20tAsAFZXxce/JSgtDxOO0v/udX2VAVapGRBzggTeYMEBdpIEB0JVcSaIyz8+4K
+RW9OanKK9q4BcNp2Up1N1tansy0k8jKZdbMfYLHQC7RtPg==
+-----END CERTIFICATE-----
+</ca>"},
+    {"id":1,"file":"client dev tun proto udp ... d4ec4105a39c814bd980c9c0e0b8efb4 -----END OpenVPN Static key V1----- </tls-auth>"}]
